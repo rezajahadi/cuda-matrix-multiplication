@@ -4,6 +4,15 @@ This repository contains CUDA code for performing matrix-vector multiplication u
 
 The code calculates the speedup for matrix-vector multiplication with varying thread configurations and prints the speedup for each configuration. The test was started from threads_per_block = 32 to 32*20.
 
+## Results
+
+Speed up vs number of threads per block:
+
+![image](https://github.com/rezajahadi/cuda-matrix-multiplication/assets/91501414/fbc50c82-a0e7-4187-9c25-5eff1173ac50)
+
+We can clearly see that the speedup decreases as the number of threads per blocks increased.
+
+
 ## Execution Environment
 
 The code was run on the `wes-00-00` GPU node of Wesley.
@@ -58,11 +67,6 @@ I provided a bash script that automates the process of compiling and executing t
 ## Contributing
 
 Contributions are welcome! Feel free to open an issue or submit a pull request for any improvements or bug fixes.
-
-## License
-
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 
 Ensure to provide clear instructions on how to use the script and what parameters it expects. Adjust the file paths and server credentials in the script according to your environment.
