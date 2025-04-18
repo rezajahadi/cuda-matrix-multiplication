@@ -62,11 +62,3 @@ qsub -I -l host=wes-00-00
 ## Compile and Deploy
 
 I provided a bash script that automates the process of compiling and executing the CUDA code on the specified remote server with the provided file and input value 'n'
-
-
-## Contributing
-
-Contributions are welcome! Feel free to open an issue or submit a pull request for any improvements or bug fixes.
-
-
-Ensure to provide clear instructions on how to use the script and what parameters it expects. Adjust the file paths and server credentials in the script according to your environment.
